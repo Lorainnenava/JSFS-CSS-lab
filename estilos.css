@@ -1,0 +1,78 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    background-color:rgb(27, 130, 95);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 30% 45% 23%;
+}
+
+/*INICIA*/
+#inicio{
+    width: 100%;
+    height: 100%;
+    background: #11998e;
+        /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+        /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#fotito{
+    width: 30%;
+    height: 70%;
+    border-radius:50%;
+    box-shadow: 0 0 20px black;
+}
+/*FINALIZA INICIO*/
+
+/*CAJA BOX*/
+#box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+}
+
+#fa1{
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#fa2 {
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.labo{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    background-color: wheat;
+}
